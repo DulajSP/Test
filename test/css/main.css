@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * { margin: 0; padding: 0; }
 
 a { text-decoration: none; color: red; }
@@ -222,6 +224,149 @@ div.quote h3 {
 div.quote p {
 	clear:both;
 }
+
+footer {
+	width: 1000px;
+	margin-top: 15px;
+	margin-bottom:  15px;
+	float: left;
+}
+
+div.footercol {
+	width: 231.25px;
+	float: left;
+	margin-left: 15px;
+	border-top: 1px solid #444;
+}
+
+div.footercol h4 {
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #444;
+}
+
+div.tweet p {
+	font-size: 15px;
+}
+
+ul.quicklinks {
+	margin-top: 10px;
+	list-style: none;
+}
+
+ul.quicklinks li a {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	display: block;
+	border-bottom: 1px solid #aaa;
+	color: #444;
+}
+
+ul.quicklinks li a:before {
+	content: " »";
+}
+
+ul.quicklinks li a:hover {
+	color: red;
+}
+
+div.blogpost {
+	clear: both;
+}
+
+div.blogpost h5 {
+	font-size: 20px;
+}
+
+div.blogpost a.readmore {
+	float: right;
+}
+
+div.blogpost p {
+	font-size: 15px;
+}
+
+form.contact input, form.contact textarea {
+	background: #eee;
+	padding: 6px;
+	margin-bottom: 7px;
+	width:221.25px;
+	border: none;
+	border-radius: 5px;
+	font-family: inherit;
+	font-size: 16px;
+} 
+
+form.contact textarea {
+	height: 120px;
+}
+
+form.contact button {
+	background: #eee;
+	color: red;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-family: inherit;
+}
+
+div.copyrights {
+	width: 1000px;
+	background: #eee;
+	float: left;
+}
+
+div.left {
+	float: left;
+	margin: 20px;
+}
+
+div.right {
+	float: right;
+	margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
